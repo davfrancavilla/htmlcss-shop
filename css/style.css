@@ -25,3 +25,17 @@ img {
     margin: 0 auto;
     padding-top: 50px;
 }
+
+span {
+    margin: 10;
+    position: absolute;
+    right: 0;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
