@@ -17,13 +17,26 @@
     position: relative;
 }
 
-img {
+.box:hover img{
+    visibility: visible;
+}
+
+img:nth-child(2) {
     width: auto;
     height: auto;
     max-height: 400px;
     display: block;
     margin: 0 auto;
     padding-top: 50px;
+}
+
+img:last-child{
+    width: 40px;
+    display: block;
+    visibility: hidden;
+    margin: 0 auto;
+    padding-top: 25px;
+    position: relative;
 }
 
 span {
